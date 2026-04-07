@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>Home - My Laravel Training</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     @vite('resources/css/app.css')
@@ -9,7 +10,7 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 </head>
 
-<body>
+<body class="min-h-screen bg-gray-100">
     <nav
         class="relative bg-gray-800 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -104,7 +105,12 @@
             </div>
         </el-disclosure>
     </nav>
-
+    <div class="py-10 bg-white shadow-sm">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-bold tracking-tight text-gray-900">Welcome to My Laravel Training</h1>
+            <p class="mt-4 text-lg text-gray-600">This is the home page of your Laravel application. Use this space to
+                introduce your site and provide links to important sections.</p>
+        </div>
 </body>
 
 </html>
