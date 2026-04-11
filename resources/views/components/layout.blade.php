@@ -16,7 +16,7 @@
     <x-navbar />
 
     {{-- Content --}}
-    <div class="py-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 bg-white shadow-sm">
+    <div class="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {{ $slot }}
     </div>
 
