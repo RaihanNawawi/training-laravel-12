@@ -15,7 +15,7 @@
                                     {{ $post['title'] }}
                                 </a>
                                 <p class="mt-2 text-gray-600">
-                                    {{ $post['content'] }}
+                                    {{ @Str::limit($post['content'], 200) }}
                                 </p>
                                 <span class="mt-2 block text-xs text-gray-400">
                                     {{ $post['author'] }} | {{ $post['date'] }}
