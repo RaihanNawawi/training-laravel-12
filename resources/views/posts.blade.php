@@ -1,4 +1,5 @@
     <x-layout :title="$title">
+        @dd($posts);
         <div class="bg-white rounded-lg shadow-lg p-6">
             <article>
                 <h2 class="text-2xl font-semibold text-gray-800">Berita Terbaru</h2>
